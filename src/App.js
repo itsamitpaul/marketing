@@ -16,7 +16,6 @@ export default ({ history, isSignedIn }) => {
 
   useEffect(()=>{
     if(!isSignedIn){
-      // history.push('/');
       window.location.replace('http://localhost:8080/')
     }
   })
